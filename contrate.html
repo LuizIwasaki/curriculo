@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Curriculo</title>
+    <link rel="icon" href="https://scl.ifsp.edu.br/images/Logo_Campus/logo_IF.jpg">
+    <link rel="stylesheet" href="contrate.css">
+</head>
+
+<body background="yeye.gif">
+
+    <div class="container" style="center">
+
+
+        <br>
+        <div class="contrate-me">
+
+            <h3 class="interesse"> Preencha os Campos de Interesse</h3>
+
+            <fieldset>
+                <label class="nome" for="Nome">Nome do interessado:</label>
+                <input class="form" type="text" id="username" placeholder="Seu nome" />
+
+
+                <br>
+                <label class="nome" for="">Nome da Empresa:</label>
+                <input class="form" type="text" id="username" style="margin-left: 28px;"
+                    placeholder="Digite o nome da Empresa" />
+
+                <br>
+                <label class="nome" for="salary">Salário:</label>
+                <input class="form" type="number" id="salary" style="margin-left: 100px;" min="3400" max="5000"
+                    placeholder="Pretenção Salárial: Min 3.400R$">
+
+                <br>
+
+
+
+                <br>
+
+                <label for="option">Tipo de Trabalho:</label>
+                <select id="options" style="margin-left: 45px;">
+                    <option value="selection" style="text-align: center;">-Selecione-</option>
+                    <option value="selection">Home Office</option>
+                    <option value="selection">Presencial</option>
+                    <option value="selection">Ambos</option>
+                </select>
+
+                <br>
+                <label for="option" style="margin-top: 500px;">Tipo de vinculo:
+                <input type="radio" id="vulgger" style="right: ;" name="CLT" value="CLT">CLT
+                <input type="radio" id="vulgger" style="right: ;" name="CLT" value="CLT">PJ
+                <input type="radio" id="vulgger" style="right: ;" name="CLT" value="CLT">Freelancer
+            </label>
+
+                <br>
+                <label for="option" style="margin-top: 500px;">Data de Inicio:
+                    <input type="date" id="date" name="date" value="date">
+                </label>
+
+                <br>
+
+                <br>
+                <label class="checkbox">
+
+                    <input type="checkbox" name="receid" value="1">
+                    Preciso dos seus serviços com urgência!
+                </label>
+                <form action="index.html" onsubmit="myFunction()">
+                <input type="submit" class="submit" onclick="location.href='index.html';" value="Enviar" />
+                </form>
+                <script>
+                    function myFunction() {
+                      alert("O FORMULARIO FOI ENVIADO COM SUCESSO!!");
+                    }
+                    </script>
+
+            </fieldset>
+
+
+              
+            <input type="button" onclick="location.href='index.html';" value="Voltar a Pagina Principal" />
+        </div>
+            
+        <br>
+        
+        <br>
+
+        <br>
+
+    </div>
+
+    
+
+
+
+</body>
+
+</html>

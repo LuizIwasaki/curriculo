@@ -1,0 +1,92 @@
+.container
+{
+    position: relative;
+    background-color: rgba(208, 145, 250, 0.603);
+    width: 680px; 
+    height: 800px; 
+    margin: 0 auto; 
+    top: -10px;
+    border-radius: 5px;
+    border: 1px  #ada5a5;
+}
+.nome
+{
+    padding: 6px;
+    border-radius: 5px;
+    margin-top: 60px;
+        
+}
+.form
+{
+    border-radius: 5px;
+    width: 400px;
+    margin: 10px;
+    margin-top: -10px;
+    padding: 1%;
+    display: inline-block;
+        
+}
+.contrate-me
+{
+    margin-top: 10px;
+}
+.interesse
+{
+    text-align: center;
+}
+input[type="button"]
+{
+    margin-left: 440px;
+    margin-top: 0px;
+    width: 238px;
+    height: 38px;
+    background-color: rgba(124, 96, 247, 0.993);
+    border-radius: 10px;
+    border: 1px solid;
+    top: 1900px;
+    cursor: pointer;
+}
+#options
+{
+    
+    widows: 98px;
+    padding: 7px;
+    height: 32px;
+    top: -200px;
+    border-radius:4px;
+    border: 1px solid;
+    margin: -70px 0;
+    width: 420px;
+}
+input[type="radio"]
+{
+    margin-left: 70px;
+    margin-top: 48px ;
+    padding: 300px;
+
+}
+
+input[type="date"]
+{
+    margin-left: 16px;
+    margin-top: 35px ;
+}
+.checkbox
+{
+    border: 0px solid;
+    padding: 10px;
+    margin: 20px;
+    right: 30px;
+}
+input[type="submit"]
+{
+    margin-left: 200px;
+    margin-top: 20px;
+    width: 238px;
+    height: 38px;
+    background-color: rgba(230, 25, 161, 0.993);
+    border-radius: 10px;
+    border: 1px solid;
+    top: 1900px;
+    cursor: pointer;
+}
